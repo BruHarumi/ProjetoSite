@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link rel="stylesheet" type="text/css" href="Style.css">
+             <link rel="stylesheet" type="text/css" href="animate.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+                 <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+   <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Home.html"> <img src="Brand.png" width="100" height="30" > </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Aulas.html">Aulas</a></li>
+      <li><a href="About.html">Sobre</a></li>
+      <li><a href="MinhasHistorias.html">Minhas historias</a></li>
+      <li><a href="Contato.html">Contato</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="Cadastro.html"><span class="glyphicon glyphicon-user"></span> Cadastro</a></li>
+      <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+          <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+        <div class="container">
+  <h2>Cadastro</h2>
+  <div class="alert alert-warning" role="alert">
+  This is a warning alert—check it out!
+</div>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email/Usuário:</label>
+       <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Senha:</label>
+<small id="passwordHelpBlock" class="form-text text-muted">
+  Sua senha deve ter entre 8 e 20 caracteres, os quais devem ser letras e números, sem espaços, caracteres especiais ou emojis.</small>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+          <div class="form-group">
+      <label for="pwd">Confirmar Senha:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <button type="submit" class="btn btn-default">Enter</button>
+  </form>
+</div>
+        <div>TODO write content</div>      <footer class="container">
+        <p class="float-right"><a href="Cadastro.html">Voltar ao topo</a></p>
+        <p>&copy; Companhia S.A., 2017-2018 &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+      </footer>
+    </body>
+</html>
